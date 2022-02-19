@@ -1,0 +1,57 @@
+<!--created and edited by RODX-->
+<!--2022/Jannuary-February-->
+<!--Oracle-AluraLATAM-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset UFT-8>
+    <title>CHALLENGE-ONE! RODX</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="favicon.ico" href="img/favicon.png">
+</head>
+
+<body>
+    <header id="cabecera" class="cabecera">
+        <br>
+        <h1 id="titulo" class="titulos">CHALLENGE ALURA-LATAM ONE</h1>
+    </header>
+    <nav id="barra-nav" class="barra-nav">
+        <h2 id="subtitulo" class="subtitulos">Decodificador y Codificador de mensajes</h2>
+    </nav>
+    <canvas id="canvas" width="100%" height="100%"> </canvas>
+    <section>
+        <div class="container1">
+            <h2 class="parrafo" id="subtitulo-2">Ingresa aquí tu texto a codificar o descodificar</h2>
+            <p id="parrafo">El texto no debe tener: Acentos, Mayúsculas ni Caracteres especiales.</p>
+            <form id="add-text" action="HTML" method="get">
+                <label for="input"></label>
+                <input class="ingresar-cadena" id="input" name="input" type="text" placeholder="Ingresa tu texto aquí">
+                <button class="button" id="button-encrypt">Codificar</button>
+                <button class="button" id="button-decrypt">Descodificar</button>
+                <button class="button" id="button-clean">Limpiar</button>
+            </form>
+        </div>
+        <div class="container2">
+            <h2 class="parrafo" id="subtitulo-2">Mensaje codificado</h2>
+            <p id="parrafo">Aquí tendras tu mensaje codificado y descodificado</p>
+            <input class="retornar-cadena" id="inputExit" name="inputExit" type="text" placeholder="Tu texto final" readonly="readonly">
+            <button class="button" id="button-copy">Copiar</button>
+            <button class="button" id="button-paste">Pegar</button>
+            <ul class="event"></ul>
+        </div>
+    </section>
+
+    <footer id="pie-de-pagina" class="pie-de-pagina">
+        by @RODX TLCT 2022 | Github : https://github.com/XerT64Er
+    </footer>
+
+    <script src="js/effect-matrix.js"></script>
+    <script src="js/encrypt-decrypt.js"></script>
+    <script src="js/copy-paste.js"></script>
+    <script src="js/buttonClean.js"></script>
+
+</body>
+
+</html>
